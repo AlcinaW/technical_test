@@ -1,0 +1,446 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+	margin: 0;
+	padding: 0;
+  background: #A3297A;
+} 
+
+p {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+
+h2 {
+  letter-spacing: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  color: #fff; 
+  padding-bottom: .25em;
+}
+
+h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #fff; 
+  padding-bottom: .25em;
+}
+
+/* @Font-face */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v11/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/PLygLKRVCQnA5fhu3qk5fQ.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Lato Black Italic'), local('Lato-BlackItalic'), url(https://fonts.gstatic.com/s/lato/v11/VNUH7ZAcagYBWsAiBBCEY1tXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 200;
+  src: local('Titillium WebThin'), local('TitilliumWeb-Thin'), url(https://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wprwWgvz7nq97YPMIWeoEnHDE.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(https://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wpr4-67659ICLY8bMrYhtePPA.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v4/7XUFZ5tgS-tD6QamInJTcZSnX671uNZIV63UdXh3Mg0.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Titillium WebSemiBold'), local('TitilliumWeb-SemiBold'), url(https://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wpr46gJz9aNFrmnwBdd69aqzY.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Titillium WebBold'), local('TitilliumWeb-Bold'), url(https://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wprxP6Eu1_xfSBSoi9uie1FdE.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Titillium WebBlack'), local('TitilliumWeb-Black'), url(https://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wpr6C95lFCEhr9IpXC9cjRuaU.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 200;
+  src: local('Titillium WebThin Italic'), local('TitilliumWeb-ThinItalic'), url(https://fonts.gstatic.com/s/titilliumweb/v4/RZunN20OBmkvrU7sA4GPPk94s9wFhqwla9v9ys0uYos.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Titillium WebLight Italic'), local('TitilliumWeb-LightItalic'), url(https://fonts.gstatic.com/s/titilliumweb/v4/RZunN20OBmkvrU7sA4GPPpqmdMmZ3RU_nSyRBdIw_WA.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Titillium WebItalic'), local('TitilliumWeb-Italic'), url(https://fonts.gstatic.com/s/titilliumweb/v4/r9OmwyQxrgzUAhaLET_KO6qVnG43xFTRN40gwdrG-aE.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 600;
+  src: local('Titillium WebSemiBold Italic'), local('TitilliumWeb-SemiBoldItalic'), url(https://fonts.gstatic.com/s/titilliumweb/v4/RZunN20OBmkvrU7sA4GPPqnxEWeSxeYH5Yv0OHgSghs.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Titillium WebBold Italic'), local('TitilliumWeb-BoldItalic'), url(https://fonts.gstatic.com/s/titilliumweb/v4/RZunN20OBmkvrU7sA4GPPrVtATvrkhG8cpz4A3QpLk8.woff2) format('woff2');
+}
+
+/* NAVIGATION START */
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+   background-image: none;
+   border-color: #A3297A;
+   box-shadow: none;
+   padding-top: 2em;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+#custom-bootstrap-menu.navbar-default img {
+  padding: 5px;
+}
+
+#custom-bootstrap-menu.navbar-default {
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    line-height: .05em;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: #fff;
+    background-color: #8f246b;
+    border-radius: 5px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #A3297A;
+    border-radius: 5px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #A3297A;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #fff;
+}
+
+
+
+/* Section 1 LANDING */
+.jumbotron {
+  background-color: #A3297A;
+}
+.jumbotron h1 {
+  font-weight: 700;
+  font-size: 3.5em;
+  color: #fff; 
+  padding-bottom: 1.25em;
+}
+
+.home {
+    padding-top: 5em;
+    padding-bottom: 6em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* Button style - need to make one CSS + children blue*/
+
+p .largebutton-orange {
+      display: inline-block;
+      position: relative;
+      width: 300px;
+      height: 65px;
+      line-height: 65px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 700;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+      white-space: nowrap;
+
+      -webkit-transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      transition: all 0.1s;
+
+      background-color: #ec7e4d;
+      -webkit-box-shadow: 0px 9px 0px #ca6a40;
+      -moz-box-shadow: 0px 9px 0px #ca6a40; 
+      box-shadow: 0px 4px 0px #ca6a40;
+}
+
+p .largebutton-blue {
+
+      display: inline-block;
+      position: relative;
+      width: 300px;
+      height: 65px;
+      line-height: 65px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 700;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+      white-space: nowrap;
+
+      -webkit-transition: all 0.1s;
+      -moz-transition: all 0.1s;
+      transition: all 0.1s;
+
+       background-color: #31b9e9;
+        -webkit-box-shadow: 0px 9px 0px #21a1c6;
+        -moz-box-shadow: 0px 9px 0px #21a1c6;
+        box-shadow: 0px 4px 0px #21a1c6;
+       /*         margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px; */
+      } 
+    
+p .largebutton .raised {
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+    
+p .largebutton .raised:active {
+    -webkit-box-shadow: 0px 2px 0px #84261a;
+    -moz-box-shadow: 0px 2px 0px #84261a;
+    box-shadow: 0px 2px 0px #84261a;
+    position:relative;
+    top:7px;
+    }
+
+/* Services Area */
+
+#another-fullsize-container-fluid {
+  background: #19c2a5;
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+#another-fullsize-container-fluid hr {
+  height: 3px;
+  width: 120px;
+  background-color: #14a48b;
+  border-color: #14a48b;
+}
+
+.services-for-you p{
+  font-size: 1em;
+  font-weight: 300;
+  padding-top: .5em;
+  padding-bottom: 4em;
+}
+
+.services-for-you img{
+  padding: 50px;
+}
+
+
+/* Contact Section */
+
+.row {
+    position: relative;
+    text-align: center;
+}
+#fullsize-container-fluid {
+  background: #6363D1;
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+#fullsize-container-fluid hr {
+  height: 3px;
+  width: 120px;
+  background-color: #344b8f;
+  border-color: #344b8f;
+}
+
+#fullsize-container-fluid p {
+  padding-bottom: 2em;
+}
+
+#fullsize-container-fluid .clear {
+  padding-bottom: 3em;
+}
+
+.form-control {
+  outline: none;
+  border-color: transparent;
+  color: #fff;
+  font-weight: 400;
+  background-color: #344b8f;
+  font-size: 1.25em;
+  color: white;
+  background: linear-gradient(
+    to bottom,
+    #344b8f,
+    #344b8f 95%,
+    #343c8f 5%,
+    #343c8f
+  );
+  background-size: 100% 15px;
+} 
+
+textarea {
+  min-height: 200px;
+}
+
+/* Placeholder styling */
+
+.form-control {
+  color: #fff;
+}
+.form-control::-webkit-input-placeholder { 
+  color: #fff; 
+}
+.form-control::-moz-placeholder {
+  color: #fff;
+}
+.form-control:-ms-input-placeholder {
+  color: #fff;
+} 
+
+/* input::after {
+  color: #B80000;
+  content:"*";
+}
+::-webkit-input-placeholder:after
+{
+  color: #B80000;
+  content:"*";
+}
+.form-control::-moz-placeholder:after {
+   color: #B80000;
+  content:"*";
+}
+:-ms-input-placeholder:after {
+  color: #B80000;
+  content:"*";
+} */
+
+
+/* It's footer time! Dundundun */
+
+footer {
+  background-color: #344b8f;
+  padding: 30px 10px;
+  border-top: 2px #B5BDD8;
+  bottom: 0px;
+  margin: auto;
+}
+
+.social li {
+  list-style: none;
+  display: inline-block;
+  background-color: none;
+  font-size: 1.5em;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.social li > a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.social li>a:hover, 
+.social li>a:focus {
+  color: #31b9e9;
+}
+
+.clear {
+  clear: both;
+}
+
+/* don't touch this bracket */
+}
+
